@@ -1,0 +1,834 @@
+### Program
+
+> ![kod](media/kod.png)
+
+
+### Program
+
+Program
+:    bilgisayara bir işlem yaptırmak için belirli bir sırada biraraya
+     getirilmiş komutlar dizisi (TDK Güncel Türkçe Sözlük, küçük
+     değişikliklerle)
+
+            -- TDK, Türkçe Güncel Sözlük
+
+
+### Program → Tarif
+
+▬
+
+- basitleştirilmiş bilgiişlem süreci:  girdi(ler) → işlem → çıktı(lar)
+- "işlem"in tarifi
+- yemek tarifi gibi...
+
+
+### Yemek tarifi
+
+- omlet yap▬
+- nasıl?▬
+\lstset{language=}
+
+            malzemeleri hazırla
+            bir kaseye yumurtaları kır
+            tuz ekle
+            isteğe göre peynir ekle
+            karışımı çırp
+            tavaya yağ ekle
+            tavayı kızdır
+            kasedeki karışımı tavaya dök
+            omleti pişir
+            tabağa servis yap
+
+
+### Program ve yemek tarifi
+
+▬
+
+- girdiler
+    + yumurta, tuz, yağ...
+- çıktı
+    + omlet
+- yürütme sırası
+    + önce tuz, sonra yumurtalar olmaz
+
+
+### Bilgisayar - otomatik yemek makinesi
+
+- böyle bir icat bildiğimiz kadarıyla yok▬
+- ama olduğunu varsayalım▬
+- mekanik aksamı olan bir tür bilgisayar
+
+
+### Otomatik yemek makinesi
+
+- tarifi **belirli kurallar çerçevesinde** yazıyor ve makineye **yüklüyoruz**
+- "belirli kurallar" → bir tür **dil**, programlama dili
+- makine komutları **yorumluyor**
+    + bu noktada anlayamadığı bir komutla karşılaşabilir mi?
+    + anlayamazsa devam da edemez
+- makine herşeyi doğru anlamışsa çalışmaya hazır, fakat:
+    + girdi gerekiyor
+    + girdi yoksa çıktı da yok
+- girdiler (yumurta, tuz vb) verildiğinde **çalıştır** düğmesine basıyoruz
+    + ve belirli bir süre sonra çıktı üretiliyor: omlet
+
+
+### Benzetmenin ögeleri
+
+####  Otomatik yemek makinesi
+
+- tarif
+- tarifin hazırlanması
+- tarifi yazan, ahçı
+- tarifin yazıldığı dil
+- tarifin yorumlanması
+- hatasız yorumlanmış tarif
+- yemeğin yapılması
+- somut girdiler: yumurta ...
+- somut çıktı: omlet
+
+▬
+|
+
+#### Bilgisayar
+
+- programın kaynak kodu
+- yazılımın geliştirilmesi
+- programcı (geliştirici)
+- programlama dili
+- programın derlenmesi
+- derlenmiş program
+- programın çalıştırılması
+- soyut girdiler (sayı vb)
+- çıktı: soyut/somut, muhtelif
+
+
+### Dil
+
+> ![babel](media/babel.jpg)
+
+
+
+### Doğal diller
+
+> ![barış](media/peace.jpg)
+
+
+### Programlama dilleri
+
+> ![programlama dilleri](media/progbabel.jpg)
+
+
+### Doğal diller - Programlama dilleri
+
+####  Doğal diller
+
+- Türkçe, İngilizce, Zuluca ...
+- belirli kurallar: gramer, sözdizimi
+- yapıtaşları: kelimeler, noktalama işaretleri
+- yanlış ifade → yanlış anlam
+- ifade gücü, belagat
+
+▬
+|
+
+#### Programlama dilleri
+
+- Python, C, Icon ...
+- belirli kurallar: gramer, sözdizimi
+- yapıtaşları: yerleşik kelimeler, deyimler
+- yanlış kod → hatalı program
+- ifade gücü, usta işi kod
+
+
+
+### Neden programlama?
+
+- mühendislik seviyesinde bilgiişlem okur yazarlığının bir parçası
+- ancak programlama yoluyla çözebileceğiniz problemlerle meslek hayatınız
+  süresince sıklıkla karşılaşabilirsiniz
+- soruya karşılık soru?  niçin roman veya şiir okuyorsunuz?
+    + faydacı bir açıdan bakarak bu soruya ne cevap verirsiniz?
+    + yoksa uzun süreden beri hiç bir şey okumuyor musunuz?
+
+
+### Python?
+
+- Python **çok yüksek düzeyli bir programlama dili**
+- yani `omlet yap`'a yakın programlar yazabileceksiniz
+
+- Python'un künyesi:
+    + GvR tarafından geliştirilmiş
+    + 17 yaşında (1991)
+    + dinamik tiplemeli
+    + çoklu platformlu, çoklu paradigmalı
+
+
+### GvR ???
+
+> ![GvR](media/GvR.jpg)
+
+
+
+
+
+FIXME
+
+- yemek tarifi benzetmesini aşağıdaki örneklerle aç
+
+- yemek tarifi, tava sıcaklığı, köpürme, sensör algıla, önerme, if, while
+
+- bir girdi akımı çiz ve buradan basitçe token'lara ayırmayı göster
+
+- bunun üzerinden derleme, sözdizimi hatası vesaire üzerinde dur
+
+- ders formunu buraya işle
+
+NOTLAR
+
+- neden programlama: edebiyat, Türkçe, okuma yazma gibi...
+
+- Python, GPL uyumlu, BSD tipinde bir (copyleft olmayan, ticari kullanıma izin
+  veren) bir lisansla dağıtılıyor: Python Software Foundation License, PSFL
+
+- The three principal virtues of a programmer are Laziness, Impatience, and
+  Hubris
+
+- Python metasentetik değişken isimleri: spam, ham, eggs
+
+- Python ismi 80'li yıllarına başlangıcına kadar BBC'de yayınlanan Monty
+  Python's Flying Circus komedisinden alınmış, GvR'ın sevdiği bir komedi.
+
+
+----------------------------------------------------------------------------
+
+
+### Kod
+
+> ![kod](media/kod.png)
+
+
+### Kodlama : _à la hacking_
+
+> ![programcı](media/hek.jpg)
+
+
+### Yemek yapmak
+
+> ![şef](media/yemek.png)
+
+
+### Kısa yemek tarifi
+
+- omlet yap
+\lstset{language=}
+
+            malzemeleri hazırla
+            bir kaseye yumurtaları kır
+            tuz ekle
+            isteğe göre peynir ekle
+            karışımı çırp
+            tavaya yağ ekle
+            tavayı kızdır
+            kasedeki karışımı tavaya dök
+            omleti pişir
+            tabağa servis yap
+
+
+### Her adım açık olmalı
+
+- bilgisayar sadece denileni yapar
+
+- tarifte belirsiz noktalar
+    + malzeme listesi?
+    + ne kadar tuz eklenmeli?
+    + ne kadar çırpılacak?
+    + ne kadar yağ?
+    + tava ne süreyle kızdırılacak?
+    + omletin piştiğini nasıl anlıyoruz?
+
+- her adım açık olmalı, gerekirse alt adımlara böl
+
+- "omlet tasarımı", soyutlama, "yukarıdan aşağıya" yaklaşım, resmin bütünü,
+  belirsizlikler
+
+- "aşağıdan yukarıya" yaklaşım, resmin ayrıntıları
+
+- tasarıma ilişkin "gerçekleme"
+
+
+### Ayrıntılı yemek tarifi
+
+- omlet yap
+\lstset{language=Turkish}
+
+            malzemeleri: yumurta, yağ, tuz hazırla
+            ekle bir kaseye yumurtaları kır
+            1 çay kaşığı tuz ekle
+            eğer peynir isteniyor ise 1 çorba kaşığı peynir ekle
+            karışımı çırp, köpürme belirtisi gösterene kadar
+            tavaya 1 çorba kaşığı yağ ekle
+            1 dakika sürece tavayı kızdır
+            kasedeki karışımı tavaya dök
+            omlet kabarmadığı sürece pişir
+            tabağa servis yap
+
+
+### Program ve yemek tarifi
+
+- sıralı yürütme adımları
+
+- karar noktaları, koşullar
+
+- tekrarlanan adımlar
+
+- bir tür uygulama stratejisi, izlenen yol, algoritma
+    + tuz çırpmadan önce ekleniyor
+    + tavanın kızdırılması çırpmayla paralel yürütülebilir mi?
+
+
+### Yemek tarifi, programlama dili
+
+- koşullar için **`eğer`** (**`if`**)
+
+- bir döngü içinde tekrarlanan adımlar: **`sürece`** (**`while`**), **`'e
+  kadar`** (**`until`**)
+
+- yemek tarifi, "sözde kod"
+
+
+### Sözde kod
+
+- hemen "program" yazmaya başlayabilirsiniz:
+    + ana dilinizde
+    + konuşur gibi
+    + programlama dili bilmeden veya kullanmadan
+
+- gününüzü programlar gibi, günlük _program_
+
+            06:30'da kalk
+            eğer ekmek yoksa ekmek al
+            kahvaltı yap
+            2 saat süreyle ders çalış
+            ...
+
+- tam anlamıyla bir program/kod değil
+
+- _sözde kod_, pseudo code
+
+
+### Örnek - çoraplar
+
+- çorap giy
+\lstset{language=Turkish}
+
+            ayaklardaki_çoraplar = 0
+            ayaklardaki_çoraplar < 2 oldukça
+                çekmeceyi aç
+                çorap ara
+                eğer bir çorap bulunmuş ise
+                    çorabı giy, ayaklardaki_çoraplar++
+                    eşleşen çorabı ara
+                    eğer eşleşen çorap bulunmuş ise
+                        çorabı giy, ayaklardaki_çoraplar++
+                        çekmeceyi kapat
+                    değilse
+                        çorabı çıkar, ayaklardaki_çoraplar--
+                değilse
+                    alışverişle çekmeceyi doldur
+
+
+### Programlama ögeleri
+
+- değişken: '`ayaklardaki_çoraplar`'
+
+- deyim, değişken ataması, ilklendirme: '`ayaklardaki_çoraplar = 0`'
+
+- koşul ifadesi: '`bir çorap bulunmuş`'
+
+- koşul deyimi:
+\lstset{language=Turkish}
+
+            eğer bir çorap bulunmuş ise
+                ...
+            değilse
+
+- döngü: `ayaklardaki_çoraplar < 2 oldukça`
+
+- alt yordam: `çorabı giy`
+
+- işleç, artırma/azaltma işleci: '`ayaklardaki_çoraplar++`', sözdizimsel
+  kısayol
+
+            ayaklardaki_çoraplar = ayaklardaki_çoraplar + 1
+
+
+### Gözlemler
+
+- saymaya `0`'dan başlanıyor, üst sınırla kurulan ilişki `< 2`
+
+- her satırda bir deyim (_statement_), deyim ayırıcı olarak satır sonu
+
+- kod akışını yansıtan girinti kullanımı
+
+- doğal dile çok yakın, fakat belirli bir programlama diliyle kolayca
+  eşlenecek ölçüde yapay
+
+- doğal dil, Türkçe?
+
+
+### Örnek - toplam - doğal dile yakın
+
+- '`1`'den `N` üst sınırına kadarki bütün sayıların toplamı
+
+            N değerini al
+            toplam değişkenini 0'a ata
+            N 0'dan büyük olduğu sürece tekrarla
+                toplam'a toplam+N'yi ata
+                N'e N-1'i ata
+            toplam değerini yaz
+
+
+### Örnek - toplam : programlama diline yakın
+
+- '`olduğu sürece tekrarla`' kalıbı, kısaca '`oldukça`'
+
+- bu kalıp döngü kuran bir "yapıtaşı"
+
+- o halde daha kalıpsal yazalım, daha az kelime
+\lstset{language=Turkish}
+
+            oku N
+            toplam = 0
+            N > 0 oldukça
+                toplam += N
+                N--
+            yaz toplam
+
+
+### Sözdizimsel kısayollar
+
+- programlamada bazı işlemlerle çok sık karşılaşılıyor, "örüntüler"
+
+- bu örüntü için bir "kısayol" icat etmekte yarar var
+    + '`toplam = toplam + N`' için '`toplam += N`'
+    + '`N = N - 1`' için '`N--`'
+
+
+### Örnek - toplam : daha farklı nasıl yazılabilir?
+
+- bir başka yöntem
+\lstset{language=Turkish}
+
+            oku N
+            toplam = 0
+
+            i = N
+            i > 0 oldukça
+                toplam += i
+                i--
+
+            yaz toplam
+
+
+### İlkle, döngüye gir, her adımda döngü değişkenini değiştir
+
+- yine sık karşılaşılan bir durum
+
+- burada da bir tür dil örüntüsü var
+
+- '`oldukça`' döngüsünün özel bir hali
+
+
+### Örnek - toplam : '`uyarınca tekrarla`' kalıbı doğuyor
+
+- '`uyarınca tekrarla`' kalıbı doğuyor, ilk aşama:
+\lstset{language=}
+
+            oku N
+
+            toplam = 0
+
+            i = N ile başlayarak;
+            i > 0 oldukça;
+            i-- ile devam ederek tekrarla
+                toplam += i
+
+            yaz toplam
+
+
+### Örnek - toplam : '`uyarınca tekrarla`' kalıbı
+
+- daha kalıpsal yazılabilir mi?
+\lstset{language=Turkish}
+
+            oku N
+
+            toplam = 0
+            i = N; i > 0; i-- uyarınca tekrarla
+                toplam += i
+
+            yaz toplam
+
+
+### Örnek - toplam : ardışıl olmayabilen sayıların toplamı
+
+- rastgele girilmiş sayıların toplamı
+
+- `0` girdiyi sonlandırıyor
+
+- sayılar ardışıl olmayabilir
+
+- artık kullanabileceğimiz bir "üst sınır" yok
+
+- girilen sayılarla bir sayı kümesi oluştur
+
+- küme _içindeki_  _her_ sayının '`toplam`'a katkısı var
+
+
+### Örnek - toplam : '`tekrarla/oldukça`' kalıbı
+
+- sayılar nasıl okunacak?
+\lstset{language=Turkish}
+
+            yaz "Sayıları girin [0 işlemi sonlandırır]: "
+            tekrarla
+                oku sayı
+                # girilen sayıyı bir yerlerde topla
+            doğru oldukça
+
+
+### '`tekrarla/oldukça`'
+
+- döngü koşulu döngünün başlangıcında değil sonunda sınanıyor
+
+- '`oldukça`' ile '`tekrarla/oldukça`'nın karşılaştırması
+\lstset{multicols=2}
+\lstset{language=Turkish}
+
+            koşul oldukça (tekrarla)
+                ...
+
+
+            tekrarla
+                ...
+            koşul oldukça
+
+- **'`tekrarla/oldukça`'da döngü en az bir kere yürütülüyor**
+
+
+### Sonsuz döngü
+
+- burada bir sonsuz döngü var
+\lstset{language=Turkish}
+
+        tekrarla
+                oku sayı
+                # girilen sayıyı bir yerlerde topla
+        doğru oldukça
+
+- '`doğru oldukça`' ifadesi daha uzun şekilde '`doğru değeri doğru oldukça`'
+  olarak  yazılabilir
+
+- '`doğru oldukça`' daima _doğrudur_, dolayısıyla daima tekrarlayan bir
+  "sonsuz döngü"
+
+
+### Örnek - toplam : '`kes`' kalıbı
+
+- kullanıcı `0` değerini girinceye kadar _sürekli_ oku
+
+- sonsuz döngüden nasıl çıkılacak?  `0` değeri girildiğinde, '`kes`' ile
+\lstset{language=Turkish}
+
+        yaz "Sayıları girin [0 işlemi sonlandırır]: "
+        tekrarla
+                oku sayı
+                eğer sayı == 0
+                        kes
+                # girilen sayıyı bir yerlerde topla
+        doğru oldukça
+
+- **döngünün sonlanması döngü koşulunda değil döngü öbeği içinde
+  gerçekleşiyor**
+
+- makro ölçekte bir örnek: GKA (Grafik Kullanıcı Arayüzü)
+    + sonsuz döngüye gir, üretilen olaylara yanıt ver
+    + bu olaylardan birisi "sistemi kapat" olabilir
+    + böyle bir olay gerçekleştiğinde sistemi sonlandır ve '`kes`'
+
+
+### Örnek - toplam : '`devam`' kalıbı
+
+- '`kes`' varsa '`devam`' diye bir şey de olmalı
+\lstset{language=Turkish}
+
+        yaz "Sayıları girin [0 işlemi sonlandırır]: "
+        tekrarla
+                oku sayı
+                eğer sayı != 0
+                        # girilen sayıyı bir yerlerde topla
+                        devam
+                kes
+        doğru oldukça
+
+
+### Dizi tipinde değişken
+
+- girilen sayılar, bir sayı dizisi, `0` ile sonlanmış bir dizi, ör.
+
+        girdi_dizisi = [ 3, 1, 17, 0 ]
+
+- her okumada, okunan sayı diziye _ekleniyor_:
+\lstset{language=Turkish}
+
+        yaz "Sayıları girin [0 işlemi sonlandırır]: "
+        tekrarla
+                oku sayı
+                eğer sayı == 0
+                        kes
+                ekle sayı, girdi_dizisi
+        doğru oldukça
+
+
+### Örnek - toplam : '`içindeki/her/için tekrarla`' kalıbı
+
+- '`içindeki/her/için tekrarla`' kalıbı doğuyor
+\lstset{language=Turkish}
+
+        yaz "Sayıları girin [0 işlemi sonlandırır]: "
+        tekrarla
+                oku sayı
+                eğer sayı == 0
+                        kes
+                ekle sayı, girdi_dizisi
+        doğru oldukça
+
+        toplam = 0
+        girdi_dizisi içindeki her sayı için
+                toplam += sayı
+
+        yaz toplam
+
+
+### Örnek - sayı tahmini oyunu
+
+- `1` ile `N` arasında tutulan bir sayıyı tahmin eden bir sözde kod:
+\lstset{language=Turkish}
+
+        tahmin = 1
+        tekrarla
+                yanıt = sor(tahmin + " doğru mu?")
+                eğer yanıt == doğru
+                        kes
+                değilse
+                        tahmin++
+        doğru oldukça
+
+
+### Örnek - sayı tahmini oyunu
+
+- burada bir yöntem kullanılmış, başarılı mı bir yöntem mi?
+
+- `1` ile `20` arasında tutulan sayı `20` ise bu yöntem kaç adımda sonuca
+  ulaşır?
+
+- yöntem, "tahmin yöntemi", tahmin bir hesaplama türü, yani "hesap yöntemi"
+
+- buna kısaca "algoritma" diyoruz
+
+
+### Algoritma fikri
+
+- etimoloji, El-Harizmi (Al-Khwarizmi), "Hint Rakamlarıyla Hesaplama" isimli
+  eseri Latinceye çevriliyor
+
+- müellifin ismi Latinceye "Algoritmi" olarak aktarılmış
+
+- "hesap yöntemi" anlamında, resmî bir tanımı yok
+
+- belirli bir problemin, işlem kaynaklarını (zaman ve/veya bellek) en etkin
+  kullanacak şekilde, sonlu sayıda adımda çözülmesi
+
+- algoritmada gerçekleme ayrıntıları üzerinde durulmaz, çoğunlukla sözde kodla
+  ifade edilir
+
+
+### Örnek - sayı tahmini oyunu : daha iyi bir algoritma?
+
+- daha iyi bir algoritma önerebilir misiniz?  `evet`/`hayır`, `doğru`/`yanlış`
+  şeklinde cevaplanması kaydıyla farklı sorular sormanız mümkün
+
+- tahmin yürütme sayısını `M` gibi bir değerle sınırlayan (`M < N`) bir sözde
+  kod
+
+
+### Örnek - sayı tahmini oyunu : programlama hataları
+
+- `1` ile `N` arasında tutulan bir sayıyı tahmin ediyoruz
+
+- fakat `N`'i hiç kullanmadık, bunu nasıl kullanabiliriz?
+
+- kullanmamız gerekir mi?
+
+- sayıyı tutan tarafta bir hata var ve diyelim ki bazen yanlış yanıt veriyor
+
+- yani '`yanıt = sor(tahmin + " doğru mu?")`' ifadesi hep '`yanlış `'
+  olabiliyor
+
+- bu durumda yazdığımız program nasıl davranır?
+
+
+### Program böcekleri, böcek ayıklama
+
+- bug, debugging; böcek, böcek ayıklama
+
+![böcek](media/bug.jpg)
+
+
+### Örnek - sayı tahmini oyunu: hata denetimi
+
+- böceklerden sakınalım!  "sakınmacı programlama" (_conservative programming_)
+\lstset{language=Turkish}
+
+        oku N
+
+        tahmin = 1
+        tekrarla
+                yanıt = sor tahmin + " doğru mu?"
+                eğer yanıt == doğru
+                        kes
+                değilse
+                        eğer tahmin >= N
+                                boya "blue screen of death"
+                                çık
+                tahmin++
+        doğru oldukça
+
+
+### Programlama dilleri ve İngilizce
+
+- programlama dilleri İngilizce orijinlidir, neden?
+\lstset{multicols=2}
+\lstset{language=Turkish}
+
+        i = N; i > 0; i--
+        uyarınca tekrarla
+                toplam += i
+
+        for
+        i = N; i > 0; i--
+                sum += i
+
+
+\lstset{multicols=2}
+\lstset{language=Turkish}
+
+        ayaklardaki_çoraplar < 2
+        oldukça
+
+        while
+        socks_on_feet < 2
+
+
+- İngilizce: _lingua franca_
+
+- özgür yazılım, açık kaynak, yazdığınız koda uluslar arası katkı istiyorsanız
+  her şey İngilizce olmalı
+
+
+### Anahtar kelimeler
+
+- programlama dillerinde yaygın kullanılan bazı İngilizce anahtar kelimeler:
+
+        let, get, set, put, new
+        and, or, not, equal
+        return, eval
+        if, then, else, unless, switch, case
+        for, foreach, while, do, until, repeat, loop
+        var, int, float, string, char
+        function (fun), def, sub
+        include, import, define
+
+
+### Örnek - toplam : İngilizce
+
+- sayı toplamı örneği, İngilizce sözde kod
+\lstset{language=English}
+
+        get the value of N
+        set the value of sum to 0
+        while N > 0 do
+                set the value of sum to sum + N
+                set the value of N to N - 1
+        return the value of sum
+
+
+### Örnek - toplam : _basit_ İngilizce
+
+- biraz daha kalıpsal yazılmış hali
+\lstset{language=English}
+
+        get N
+        sum = 0
+        while N > 0
+                sum += N
+                N--
+        return sum
+
+
+### Programlama dilleri ve Türkçe
+
+- kaynak kodda (karakter tipinde değişken değerleri hariç) sadece ASCII
+  karakterler kullanılmalı
+
+- ASCII kümede olmayan Türkçe'ye özgü karakterler: "ığüşöç" ve "İĞÜŞÖÇ"
+
+- fakat Türkçe anlamlı (_Türkçemsi_) kelimeler kullanılabilir:
+
+        ayaklardaki_coraplar
+
+- Türkçe karakterlere en yakın ASCII karakterler:
+    + ı:i, ğ:g, ü:u, ş:s, ö:o, ç:c
+    + İ:I, Ğ:G, Ü:U, Ş:S, Ö:O, Ç:C
+
+- kaynak kod dosya isimlerinde de bu kurala uymalısınız, neden?
+
+
+### Alaturka
+
+- buraya kadar bazı Türkçe kalıplar gördük
+
+- kendine özgü bir sözde kod dili
+
+- Türkçe, "Türk usulü"
+
+- '**`alaturka`**'
+
+
+### Sorular?
+
+> > > > ZZzzzzzzzzz
+
+![zzz](media/uyku.jpg)
+
+
+
+
+### TODO
+
+- yemek tarifindeki "malzeme listesi" ile "bildirim" arasında ilişki kur
+
+- bildirim ile deyim arasında fark mı var?  ilkinde bir şey yapılmıyor,
+  diğerinde bir şey yapılıyor
+
+- öte yandan bir çok kaynak "bildirim deyiminden" bahsediyor
+
+- deyim ve ifade, işte bu ikisi farklı; ilki değer dönmüyor, diğeri değer
+  dönüyor
+
+- "deyim" yerine daha iyi bir karşılık
+
+- işlev, yordam farkı; değer dönen ve dönmeyen
+
+- yordam ve yan etki (perl kitabından)
